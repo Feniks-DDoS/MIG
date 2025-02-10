@@ -1,0 +1,49 @@
+body {
+    font-family: var(--font-family-base);
+    font-weight: 700;
+    color: var(--gray-light-color);
+    background: var(--dark-color);
+    overflow-x: hidden;
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    @include fluid-text(24,16);
+    @include reset-link;
+}
+
+h2 {
+  @include fluid-text(45,36);
+  font-weight: 700;
+  line-height: 3.25rem;
+  letter-spacing: 0.563px;
+}
+
+h3 {
+    @include fluid-text(57,36);
+    color: var(--pink-color);
+    font-weight: 800;
+    line-height: 4rem;
+}
+
+h4 {
+    @include fluid-text(24,24);
+    color: var(--pink-color);
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: 1.2px;
+}
+
+p {
+    @include fluid-text(16,16);
+    color: #AA0073;
+    font-weight: 600;
+    line-height: 1.5rem;
+}

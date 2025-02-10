@@ -1,0 +1,95 @@
+.section__sponsor {
+    margin-block: 7rem;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -26%;
+        left: -2%;
+        z-index: 100;
+        width: 304px;
+        height: 346px;
+        background-image: url(../../images/hero_background-image-left.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @include tablet {
+            top: 40%;
+            right: 0;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -47%;
+        right: 0;
+        z-index: 100;
+        width: 308px;
+        height: 347px;
+        rotate: 327deg;
+        background-image: url(../../images/butterfly_right.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+        @include tablet {
+            top: -31%;
+        }
+    }
+}
+
+.sponsor {
+        z-index: 200;
+        position: relative;
+
+    &__body {
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-family: "Roboto";
+        font-weight: 400;
+        line-height: 2.25rem;
+        color: var(--light-color);
+        margin-block: 2.5rem;
+
+        @include fluid-text(28, 24);
+
+        @include mobile {
+         line-height: 2rem;
+        }
+
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 5.5rem;
+        row-gap: 3.5rem;
+        grid-row: auto;
+        justify-content: center;
+
+        @include desktop {
+            column-gap: 2.5rem;
+        }
+        @include tablet {
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 1.5rem;
+        }
+        @include mobile {
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+
+    &__image {
+        @include mobile {
+        width: 160px;
+        height: 106px;
+        }
+    }
+}

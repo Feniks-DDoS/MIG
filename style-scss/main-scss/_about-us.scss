@@ -1,0 +1,107 @@
+.section__about-us {
+    background-color: var(--gray-light-color);
+
+    padding-block: 10rem;
+    position: relative;
+
+    @include mobile {
+        &::after{
+            content: "";
+            position: absolute;
+            right: -10%;
+            top: 60%;
+            width: 259px;
+            height: 300px;
+            z-index: 100;
+            background-image: url(../../images/about-us-butterfly_all-1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+           }
+    }
+}
+.about-us__title {
+    text-align: center;
+    margin-bottom: 4.5rem;
+    color: var(--dark-pink-color);
+    position: relative;
+    z-index: 200;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -183%;
+        right: 15%;
+        width: 81px;
+        height: 175px;
+        background-image: url(../../images/about-us.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include tablet {
+            display: none;
+        }
+    }
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7rem;
+    text-align: start;
+    position: relative;
+    z-index: 200;
+
+    
+    @include tablet {
+        column-gap: 5rem;
+    }
+
+    @include mobile {
+        flex-direction: column;
+        row-gap: 7rem;
+    }
+
+    &__wrapper-title {
+        text-wrap:nowrap;
+    }
+    &__wrapper-bulshit {
+        margin-bottom: 1rem;
+    }
+    &__wrapper-subtitle {
+        margin-block: 1rem;
+    }
+    &__wrapper-link {
+        position: relative;
+        color: var(--dark-pink-color);
+        font-weight: 500;
+        text-wrap:nowrap;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 25%;
+            right: -10%;
+            width: 23px;
+            height: 23px;
+            background-image: url(../../icons/about-us.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: var(--transition-duration);
+
+            @include tablet {
+                width: 15px;
+                height: 15px;
+            }
+    }
+    
+    @include hover {
+        &:hover::before {
+            right: -25%;
+        }
+    }
+ }
+}
