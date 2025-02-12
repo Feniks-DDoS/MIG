@@ -475,7 +475,7 @@ svg * {
   width: 527px;
   z-index: -99;
   height: 525px;
-  background-image: url(../../images/hero_background-image-left.png);
+  background-image: url(../images/hero_background-image-left.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -489,7 +489,7 @@ svg * {
   width: 527px;
   height: 950px;
   mix-blend-mode: screen;
-  background-image: url(../../images/butterfly_all-1.png);
+  background-image: url(../images/butterfly_all-1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -532,7 +532,7 @@ svg * {
   top: -200%;
   width: 178px;
   height: 175px;
-  background-image: url(../../images/butterfly_logo_top.png);
+  background-image: url(../images/butterfly_logo_top.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -545,7 +545,7 @@ svg * {
   rotate: -35deg;
   width: 155px;
   height: 175px;
-  background-image: url(../../images/butterfly_right.png);
+  background-image: url(../images/butterfly_right.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -682,7 +682,7 @@ svg * {
     width: 251px;
     height: 276px;
     z-index: -99;
-    background-image: url(../../images/hero_background-image-left.png);
+    background-image: url(../images/hero_background-image-left.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -807,7 +807,7 @@ svg * {
   right: -25%;
   width: 7px;
   height: 12px;
-  background-image: url(../../icons/View-more.svg);
+  background-image: url(../icons/View-more.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -913,7 +913,7 @@ svg * {
     width: 259px;
     height: 300px;
     z-index: 100;
-    background-image: url(../../images/about-us-butterfly_all-1.png);
+    background-image: url(../images/about-us-butterfly_all-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -938,7 +938,7 @@ svg * {
   right: 15%;
   width: 81px;
   height: 175px;
-  background-image: url(../../images/about-us.png);
+  background-image: url(../images/about-us.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1004,7 +1004,7 @@ svg * {
   right: -10%;
   width: 23px;
   height: 23px;
-  background-image: url(../../icons/about-us.svg);
+  background-image: url(../icons/about-us.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1040,7 +1040,7 @@ svg * {
   z-index: 100;
   width: 304px;
   height: 346px;
-  background-image: url(../../images/hero_background-image-left.png);
+  background-image: url(../images/hero_background-image-left.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1065,7 +1065,7 @@ svg * {
   width: 308px;
   height: 347px;
   rotate: 327deg;
-  background-image: url(../../images/butterfly_right.png);
+  background-image: url(../images/butterfly_right.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1362,7 +1362,7 @@ svg * {
   width: 60px;
   aspect-ratio: 1;
   border-radius: 67px;
-  background-image: url(../../icons/footer.svg);
+  background-image: url(../icons/footer.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
