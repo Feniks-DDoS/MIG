@@ -4,6 +4,7 @@
     padding-block: 10rem;
     position: relative;
 
+
     @include mobile {
         &::after{
             content: "";
@@ -17,9 +18,14 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
-           }
+        }
     }
 }
+
+.section__about-us--container {
+    padding-inline: var(--container-padding-inline-phone);
+}
+
 .about-us__title {
     text-align: center;
     margin-bottom: 4.5rem;

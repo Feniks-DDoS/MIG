@@ -20,7 +20,11 @@
             right: 0;
         }
     }
-
+.section__sponsor-container {
+    @include mobile {
+        padding-inline: var(--container-padding-inline-phone);
+    }
+}
     &::after {
         content: "";
         position: absolute;

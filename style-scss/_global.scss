@@ -13,7 +13,6 @@ textarea,
 svg * {
     transition-duration: var(--transition-duration);
 }
-
 a {
     @include fluid-text(24,16);
     @include reset-link;
