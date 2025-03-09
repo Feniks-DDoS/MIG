@@ -6,6 +6,10 @@
     position: relative;
     z-index: 200;
 
+    @include mobile {
+        padding-top: 154px;
+    }
+     
     &::before {
         content: "";
         position: absolute;
@@ -51,6 +55,17 @@
             right: -15%;
             width: 451px;
             height: 776px;
+        }
+       }
+       @include mobile {
+        &::after {
+            right: -23%;
+            height: 569px;
+        }
+        @media (max-width: 470px) {
+           &::after {
+             right: -36%;
+           }
         }
        }
    }
@@ -150,6 +165,9 @@
     }
     justify-content: center;
     margin-top: 25rem;
+   }
+   @include mobile {
+    margin-top: 17rem;
    }
    &::after {
     content: "";

@@ -5,7 +5,11 @@ body {
     background: var(--dark-color);
     overflow-x: hidden;
 }
-
+header,
+section,
+footer {
+    overflow: hidden;
+}
 a,
 button,
 input,
