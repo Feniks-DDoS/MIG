@@ -112,13 +112,13 @@
      
         @include mobile {
             font-weight: 500;
-            line-height: 1.5rem;
+            line-height: 150%;
         }
         p {
             color: var(--gray-light-color);
             @include fluid-text(24, 16);
             font-weight: 700;
-            line-height: 3.125rem;
+            line-height: 310%;
             letter-spacing: 1.2px;
         }
     }
@@ -130,12 +130,11 @@
         padding: 0.5rem 1.5rem;
         box-shadow: 5px -3px 4px 0px rgba(55, 55, 55, 0.43) inset;
         transition-duration:  var(--transition-duration);
-        z-index: 100;
         border: none;
 
         @include fluid-text(24,16);
         font-weight:500;
-        line-height: 1.9375rem;
+        line-height: 130%;
         letter-spacing: 0.36px;
 
         @include mobile {

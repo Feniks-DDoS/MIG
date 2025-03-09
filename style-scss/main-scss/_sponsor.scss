@@ -5,7 +5,7 @@
     &::before {
         content: "";
         position: absolute;
-        top: -26%;
+       
         left: -2%;
         z-index: 100;
         width: 304px;
@@ -57,7 +57,7 @@
     &__subtitle {
         font-family: "Roboto";
         font-weight: 400;
-        line-height: 2.25rem;
+        line-height: 150%;
         color: var(--light-color);
         margin-block: 2.5rem;
 

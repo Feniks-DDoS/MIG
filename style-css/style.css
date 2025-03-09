@@ -99,7 +99,7 @@ a, a:hover {
 h2 {
   font-size: clamp(36px, 2.9761904762vw, 45px);
   font-weight: 700;
-  line-height: 3.25rem;
+  line-height: 160%;
   letter-spacing: 0.563px;
 }
 
@@ -107,14 +107,14 @@ h3 {
   font-size: clamp(36px, 3.7698412698vw, 57px);
   color: var(--pink-color);
   font-weight: 800;
-  line-height: 4rem;
+  line-height: 110%;
 }
 
 h4 {
   font-size: clamp(24px, 1.5873015873vw, 24px);
   color: var(--pink-color);
   font-weight: 700;
-  line-height: 3.125rem;
+  line-height: 200%;
   letter-spacing: 1.2px;
 }
 
@@ -122,7 +122,7 @@ p {
   font-size: clamp(16px, 1.0582010582vw, 16px);
   color: #AA0073;
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: 130%;
 }
 
 /**
@@ -256,7 +256,7 @@ body {
   /**
     Унифицированный интерлиньяж
    */
-  line-height: 1.5;
+  line-height: 150%;
 }
 
 /**
@@ -579,14 +579,14 @@ svg * {
 @media (max-width: 767px) {
   .hero__subtitle {
     font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 150%;
   }
 }
 .hero__subtitle p {
   color: var(--gray-light-color);
   font-size: clamp(16px, 1.5873015873vw, 24px);
   font-weight: 700;
-  line-height: 3.125rem;
+  line-height: 310%;
   letter-spacing: 1.2px;
 }
 .hero__button {
@@ -598,11 +598,10 @@ svg * {
           box-shadow: 5px -3px 4px 0px rgba(55, 55, 55, 0.43) inset;
   -webkit-transition-duration: var(--transition-duration);
           transition-duration: var(--transition-duration);
-  z-index: 100;
   border: none;
   font-size: clamp(16px, 1.5873015873vw, 24px);
   font-weight: 500;
-  line-height: 1.9375rem;
+  line-height: 130%;
   letter-spacing: 0.36px;
 }
 @media (max-width: 767px) {
@@ -1062,7 +1061,6 @@ svg * {
 .section__sponsor::before {
   content: "";
   position: absolute;
-  top: -26%;
   left: -2%;
   z-index: 100;
   width: 304px;
@@ -1113,7 +1111,7 @@ svg * {
 .sponsor__subtitle {
   font-family: "Roboto";
   font-weight: 400;
-  line-height: 2.25rem;
+  line-height: 150%;
   color: var(--light-color);
   margin-block: 2.5rem;
   font-size: clamp(24px, 1.8518518519vw, 28px);
@@ -1252,7 +1250,7 @@ svg * {
   color: #403D39;
   font-size: clamp(24px, 1.5873015873vw, 24px);
   font-weight: 500;
-  line-height: 1.9375rem;
+  line-height: 130%;
   letter-spacing: 0.36px;
 }
 .subscribe__field {
